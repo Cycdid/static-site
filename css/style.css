@@ -1,0 +1,405 @@
+body {
+	font-family:'Open Sans', Helvetica, sans-serif;
+	background: #001821;
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.42;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	min-width: 1170px;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.main-page-wrapper {
+background: url(../img/bg/bg-1.jpg) center top no-repeat, url(../img/bg/bg-2.jpg) right bottom 152px no-repeat;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1170px;
+	padding: 0 15px;
+}
+
+.header {
+	height: 120px;
+	position: relative;
+	margin-bottom: 110px;
+}
+
+.logo {
+	display: block;
+	position: absolute;
+	top: 57px;
+	left: 0;
+}
+
+.contacts {
+	position: absolute;
+	top: 55px;
+	right: 0;
+	font-style: normal;
+	text-align: right;
+}
+
+.contacts__phone {
+	font-size: 26px;
+	margin-bottom: 5px;	
+	display: inline-block;
+	
+}
+
+.contacts__dropdown-title {
+	font-size: 13px;
+	text-decoration: underline;
+	color: #DA0100;
+	position: absolute;
+	top: 29px;
+	right: 0;
+}
+
+.contacts__desc {
+	color: #9A9A9A;
+	font-size: 11px;
+}
+
+.menu {
+	position: absolute;
+	top: 67px;
+	left: 165px;
+}
+
+.menu__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 50px;
+}
+
+.menu__item:last-child {
+	margin-right: 0;
+}
+
+.menu__link {
+	font-size: 14px;
+}
+
+.menu__item--active .menu__link{
+	color: #DA0100;
+}
+
+.menu__link:hover {
+	color: #DA0100;
+}
+
+.hero {
+	margin-bottom: 250px;
+}
+
+.hero__text-section {
+	max-width: 45%;
+	margin-bottom: 35px;
+}
+
+.hero__title {
+	font-size: /*78px*/4.5em;
+	font-weight: bold;
+	line-height: 1.3;
+	margin-bottom: 28px;
+}
+
+.hero__subtitle {
+	font-size: /*18px*/1.2em;
+	margin-bottom: 30px;
+}
+
+.btn {
+	border-radius: 35px;
+	padding: 18px 40px;
+	background: #F5170E;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: inline-block;
+}
+
+.btn:hover, .btn--active {
+	background: #DA0100;
+	color: #fff;
+}
+
+.btn--color--light {
+	background: #fff;
+	border: 1px solid #F5170E;
+	color: #F5170E;
+}
+
+.title {
+	font-size: /*36px*/2.2em;
+	font-weight: bold;
+}
+
+.title--fire {
+	background: url(../img/icon/flame.svg) 30% no-repeat;
+	line-height: 36px;
+}
+
+.title--color--dark {
+	margin-bottom: 37px;
+	color: #000;
+}
+
+.offers {
+	margin-bottom: 112px;
+}
+
+.offers__cards {
+	margin-top: 59px;
+}
+
+.offers__item {
+	position: relative;
+	min-height: 449px;
+	border-radius: 5px;
+	overflow: hidden;
+	display: inline-block;
+	background: #fff;
+	width: 31%;
+	margin-right: 3%;
+}
+
+.offers__item:last-child {
+	margin-right: 0;
+}
+
+.offers__header {
+	min-height: 144px;
+	margin-bottom: 9px;
+}
+
+.offers__content {
+	padding: 17px 16px 26px 22px;
+	font-size: 14px;
+	color: #303030;
+}
+
+.offers__text {
+	margin-bottom: 21px;
+}
+
+.caption {
+	font-size: /*24px*/1.8em;
+	font-weight: bold;
+	color: black;
+}
+
+.caption--color--light {
+	color: #fff;
+	margin-top: 12px;
+	margin-bottom: 5px;
+}
+
+.schedule {
+	margin-top: 21px;
+	margin-bottom: 19px;
+}
+
+.schedule__item, .schedule__svg-text {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.schedule__item:last-child {
+	margin-right: 0;
+}
+
+.schedule__svg-icon {
+	margin-right: 10px;
+}
+
+.news {
+	margin-bottom: 143px;
+}
+
+.news__list {
+	display: inline-block;
+	vertical-align: top;
+	width: 557px;
+	border-radius: 6px;
+	overflow: hidden;
+	position: relative;
+	margin: 59px 10px 55px 0px;
+}
+
+.news__list:last-child {
+	margin-right: 0;
+}
+
+
+.news__img, .introduce__img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.news__content {
+	position: absolute;
+	right: 0;
+	left: 0;
+  top: 219px; 
+	padding: 30px 47px;
+}
+
+.news__data {
+	font-size: 14px;
+}
+
+.pagination {
+	text-align: center;
+}
+
+.pagination__display, .pagination__list, .pagination__item {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.pagination__display {
+	margin-right: 36px;
+}
+
+.pagination__link {
+	display: block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	position: relative;
+	font-weight: bold;
+	line-height: 32px;
+}
+
+.pagination__item--activ .pagination__link, .pagination__link:hover {
+	background: #fff;
+	color: #F5170E;
+}
+
+.introduce {
+	margin-bottom: 58px;
+}
+
+.introduce__before::before {
+	content: " ";
+	height: 505px;
+	width: 490px;
+	background: url(../img/gates.jpg) center center / cover no-repeat;
+}
+
+.introduce__desc {
+	background: url(../img/mountains.jpg) center center / cover no-repeat;
+	min-height: 455px;
+	max-width: 785px;
+	padding: 66px 202px 66px 80px;
+	margin-left: -141px;
+	margin-top: 97px;
+}
+
+.introduce__before::before, .introduce__desc {
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.introduce__text {
+	color: #060606;
+	margin-bottom: 43px;
+}
+
+.introduce__text p {
+	margin-bottom: 20px;
+}
+
+.introduce__text p:last-child {
+	margin-bottom: 0;
+}
+
+.fotter-container__border {
+  border-top: 1px solid #30444B;
+}
+
+.section {
+	height: 152px;
+	position: relative;
+}
+
+.socials {
+	position: absolute;
+	top: 61px;
+	right: 306px;
+}
+
+.socials__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.socials__item:last-child {
+	margin-right: 0;
+}
+
+.socials__link {
+	display: block;
+	width: 36px;
+	height: 36px;
+	background: center center no-repeat;
+}
+
+.socials__item--icon--telegram .socials__link {
+	background-image: url(../img/icon/telegram.svg);
+}
+
+.socials__item--icon--telegram .socials__link:hover {
+	background-image: url(../img/icon/hover-telegram.svg);
+}
+
+.socials__item--icon--facebook .socials__link {
+	background-image: url(../img/icon/facebook.svg);
+}
+
+.socials__item--icon--facebook .socials__link:hover {
+	background-image: url(../img/icon/hover-facebook.svg);
+}
+
+.socials__item--icon--insta .socials__link {
+	background-image: url(../img/icon/insta.svg);
+}
+
+.socials__item--icon--insta .socials__link:hover {
+	background-image: url(../img/icon/hover-insta.svg);
+}
+
+
